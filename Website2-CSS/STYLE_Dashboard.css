@@ -1,0 +1,125 @@
+/*=====================LAYOUT DESIGN======================*/
+body{
+background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url(Background.jpg);
+}
+
+div{
+border-radius: 10px;
+border:2px solid black;
+}
+
+/*=====================NAVIGATION BAR======================*/
+#nav{
+background-color: black;
+}
+
+#nav ul{
+text-align: right;
+font-size: 20px;
+margin: 0px;
+}
+
+#nav li{
+display: inline;
+padding:15px;
+line-height: 2em;
+}
+
+#nav a{
+text-decoration: none;
+color:white;
+}
+
+#nav a:hover{
+color:blue;
+}
+
+/*=====================HEADER SECTION======================*/
+
+div h2{
+color:white;
+text-align:center;
+}
+
+/*=====================ORDER ENTRY SECION======================*/
+#StockName{
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+color:white;
+padding: 15px;
+background-color: rgba(0,0,255,0.5);;
+border: solid 2px white;
+}
+
+.row{
+display: table-row;
+}
+
+.row label{
+font-size: 20px;
+font-weight: normal;
+display:table-cell;
+}
+
+.row input{
+width: 250%;
+font-size:13pt;
+padding: 5px 5px 5px 5px;
+border:2px solid #cecece;
+border-radius: 5px;
+}
+
+.row select{
+font-size:13pt;
+padding: 5px 5px 5px 5px;
+border:2px solid #cecece;
+border-radius: 5px;
+width: 100%;
+}
+
+/*=====================BUY_SELL SECTION======================*/
+
+.button{
+font-size: 25px;
+background-color: white;
+border-radius: 3px;
+margin-right: 20px;
+margin-left: 20px;
+padding: 0 20px;
+box-sizing: border-box;
+}
+
+.button_go{
+font-size: 20px;
+}
+
+#button ul{
+padding-left: 0;
+list-style-type: none;
+}
+
+#button li{
+display: inline;
+}
+
+#button a{
+color:#666;
+text-decoration: none;
+
+}
+
+#button a:hover{
+color:#000;
+background-color: green;
+}
+
+#button a:hover{
+color:#000;
+background-color: green;
+}
+
+#button a[lang="RED"]:hover{
+color:#000;
+background-color: red;
+}

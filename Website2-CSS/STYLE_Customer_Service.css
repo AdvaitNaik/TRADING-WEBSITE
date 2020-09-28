@@ -1,0 +1,48 @@
+/*=====================LAYOUT DESIGN======================*/
+body{
+background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(Background.jpg);
+color: white;
+font-family:"Calibri",sans-serif;
+text-align:justify;
+}
+
+div{
+border-radius: 10px;
+border:2px solid black;
+}
+
+/*=====================NAVIGATION BAR======================*/
+#nav{
+background-color: black;
+}
+
+#nav ul{
+text-align: right;
+font-size: 20px;
+margin: 0px;
+}
+
+#nav li{
+display: inline;
+padding:15px;
+line-height: 2em;
+}
+
+#nav a{
+text-decoration: none;
+color:white;
+}
+
+#nav a:hover{
+color:blue;
+}
+
+/*=====================HELP SECTION======================*/
+
+h4{
+  font-size: 1.5em;
+}
+h1{
+  text-align:justify;
+  font-size: 3em;
+}

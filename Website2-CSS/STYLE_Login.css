@@ -1,0 +1,112 @@
+/*=====================LAYOUT DESIGN======================*/
+body{
+background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(Background.jpg);
+}
+
+div{
+border-radius: 10px;
+border:2px solid black;
+}
+
+/*=====================NAVIGATION BAR======================*/
+#nav{
+background-color: black;
+}
+
+#nav ul{
+text-align: right;
+font-size: 20px;
+margin: 0px;
+}
+
+#nav li{
+display: inline;
+padding:15px;
+line-height: 2em;
+}
+
+#nav a{
+text-decoration: none;
+color:white;
+}
+
+#nav a:hover{
+color:blue;
+}
+
+/*=====================LOGIN BAR======================*/
+
+.box{
+    width:500px ;
+    padding: 40px;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%,-50%) ;
+    background:#191919 ;
+    text-align: center;
+}
+
+.box h1{
+    color: white; 
+    font-weight: bold;
+
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width : 300px;
+    outline : none;
+    border-radius: 25px;
+    transition: 0.25s;
+    color : white;
+  }
+
+  .box label{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width : 200px;
+    outline : none;
+    border-radius: 25px;
+    transition: 0.25s;
+    color : white;
+
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width:350px;
+    border-color:#2ecc71;
+  }
+
+  .box input[type= "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 45px;
+    outline : none;
+    border-radius: 25px;
+    transition: 0.25s;
+    color: white;
+     cursor: pointer;
+  }
+
+  .box input[type= "submit"]:hover{
+    background: #2ecc71;
+    
+  }
+
+.addrs input[type= "text"]{
+    height: 50px;
+}
